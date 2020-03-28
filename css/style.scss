@@ -392,3 +392,108 @@ footer {
     color: #F7F9FC;
     margin-left: 486px;
 }
+
+@media (max-width: 415px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .header__title {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .card {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .man_img {
+        margin-left: 10px;
+    }
+    .card_title {
+        font-size: 16px;
+    }
+    .executor__text {
+         width: 90%;
+    }
+    .guarantee_img {
+        margin-left: 5px;
+    }
+    .content {
+        margin: 10px 0px 0px 0px;
+        padding: 0;
+    }
+    .crumbs {
+        text-align: center;
+    }
+    .service {
+        height: 680px;
+    }
+    .service__style {
+        width: 100%;
+    }
+    .service, .service_img {
+        width: 100%;
+    }
+    .service__text {
+        width: 320px;
+    }
+    .vital-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .term {
+        margin: 0;
+        text-align: center;
+    }
+    .price, .vital-info__order {
+        margin: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .review-header {
+        flex-direction: column;
+    }
+    .review-header__link, .review-card__date, .review-card__date__special, .review-card__special {
+        margin: 0 !important;
+    }
+    .review-card, .review-card__text {
+        width: 90%;
+    }
+    .review-card__text {
+        margin-left: 20px;
+    }
+    .review-card {
+        margin-bottom: 60px !important;
+        height: 375px;
+        width: 100%;
+    }
+    .review-card__special {
+        height: 350px;
+    }
+    .review-card__style, .review-card__style__special {
+        width: 70%;
+    }
+    .review-card__date, .review-card__date__special {
+        display: none;
+    }
+    .footer {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__copy {
+        margin: 0;
+        width: 280px;
+    }
+    .footer__title {
+        padding: 0;
+    }
+}
+@media (max-width: 320px) {
+    .review-card {
+        height: 420px;
+    }
+}
