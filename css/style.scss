@@ -16,6 +16,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: url('../fonts/SFProDisplay-Light.eot');
+    src: url('../fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Light.woff') format('woff'),
+    url('../fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @mixin flexRow {
     display: flex;
     flex-direction: row;
@@ -30,13 +39,17 @@ body {
 }
 header {
     width: 100%;
-    height: 64px;
     background-color: #2d2d44;
+    height: 64px;
+}
+.header {
+    background-color: #2d2d44;
+    width: 1440px;
     margin: 0 auto;
 }
 main {
     max-width: 1440px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 .header__title {
     font-family: SF Pro Display Bold;
@@ -74,14 +87,13 @@ main {
     margin-bottom: 32px;
 }
 .executor__text {
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'SF Pro Display Light';
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.25px;
     color: #999999;
     width: 350px;
+    margin-left: 16px;
 }
 .card_style {
     width: 320px;
@@ -116,13 +128,14 @@ main {
 }
 .guarantee_img {
     margin-top: -11px;
-    margin-left: 32px;
+    margin-left: 23px;
+    margin-right: 23px;
 }
 .guarantee__title {
     margin-top: 59px;
 }
 .guarantee__text {
-    font-family: SF Pro Display;
+    font-family: SF Pro Display Light;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -195,7 +208,7 @@ main {
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.1px;
-    color: #000000;
+    color: #333333;
     margin-left: 32px;
     margin-bottom: 32px;
     width: 696px;
@@ -231,7 +244,7 @@ main {
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
-    color: #000000;
+    color: #333333;
 }
 .vital-info__order {
     margin-left: 205px;
@@ -322,6 +335,9 @@ main {
     border: 1px solid #000000;
     width: 688px;
 }
+.review-card__style__special {
+    width: 578px;
+}
 .review-card__text {
     font-family: SF Pro Display;
     font-style: normal;
@@ -329,34 +345,43 @@ main {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.25px;
-    color: #000000;
+    color: #333333;
     position: absolute;
     margin-top: 72px;
     margin-left: 80px;
     width: 672px;
 }
+.review-card__text__special {
+    width: 578px;
+}
 .review-card__special {
     margin-left: 102px;
+    width: 690px;
 }
 .review-card__date__special {
-    margin-left: 405px !important;
+    margin-left: 300px !important;
 }
 footer {
     width: 100%;
+    background-color: #2d2d44;
     height: 64px;
-    margin-top: 4px;
+}
+.footer {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #2d2d44;
     @include flexRow();
     align-items: center;
-    background-color: #2d2d44;
-    justify-content: space-around;
+    justify-content: start; 
 }
 .footer__title {
-    font-family: SF Pro Display;
+    font-family: SF Pro Display Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
+    padding: 14px 120px;
 }
 .footer__copy {
     font-family: 'Roboto', sans-serif;
@@ -365,4 +390,5 @@ footer {
     font-size: 12px;
     line-height: 36px;
     color: #F7F9FC;
+    margin-left: 486px;
 }
