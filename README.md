@@ -1,9 +1,9 @@
 # Portfolio work
 #### *Project for freelance, real order.*<br/>
 ### ***Using: HTML, SCSS + Bootstrap4, JavaScript + jQuery***<br/>
-MLG [Website](https://n1ks0n.github.io/mlg/about) about law firm and have 4 pages: About, Services, News and Contacts.
+MLG [Website](https://n1ks0n.github.io/b24/) about law firm and have 4 pages: About, Services, News and Contacts.
 
-## Website is available at [Home Page](https://n1ks0n.github.io/mlg/about).
+## Website is available at [Home Page](https://n1ks0n.github.io/b24/).
 
 
 ## Author
